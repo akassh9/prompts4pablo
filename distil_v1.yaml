@@ -1,0 +1,9 @@
+version: 1
+
+system_instruction: |
+Summarize the main factual points of the following text in no more than 2 sentences.
+Input variable:
+- text_snippet: the text to summarize (up to 4000 characters).
+
+generation_config:
+response_mime_type: text/plain
